@@ -110,7 +110,7 @@ export const CityWeather = ({ weather }) => {
             <h4>Humidity</h4>
           </div>
           <div className="sea-level">
-              <h2>{seaLevel??`No Data`}</h2>
+              <h2>{seaLevel??`No Data found`}</h2>
               <FontAwesomeIcon className='small-icons' icon={faRuler} />
               <h4>Sea Level</h4>
           </div>
