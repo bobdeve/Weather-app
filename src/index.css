@@ -120,6 +120,7 @@ button {
     display: flex;
     flex-wrap: wrap; /* Ensure items wrap on smaller screens */
     justify-content: center;
+    
     gap: 2rem;
     margin-top: 2rem;
 }
@@ -168,6 +169,10 @@ button {
 
     .detail-container {
         gap: 1rem;
+        align-self: center;
+        justify-self: center;
+        padding: 0 1rem;
+        
     }
 
     .small-icons {
